@@ -13,11 +13,11 @@ public class GateGizmoPainter implements IGizmoPainter {
 		Ellipse2D.Double circle = new Ellipse2D.Double(gizmo.getX(), gizmo.getY(), gizmo.getWidth(), gizmo.getHeight());
 
 		if (gizmo.getTriggeredState()) {
-			g.setColor(Color.GRAY);
+			g.setColor(Color.lightGray);
 			g.fill(circle);
 		}
 
-		g.setColor(Color.GRAY.darker());
+		g.setColor(Color.lightGray.darker());
 		g.draw(circle);
 	}
 

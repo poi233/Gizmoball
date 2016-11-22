@@ -35,9 +35,7 @@ public class RotateGizmoIcon implements Icon {
 				RenderingHints.VALUE_ANTIALIAS_ON);
 
 		g.setColor(Color.black);
-		g.drawArc(5, 5, getIconWidth(), getIconWidth(), 0, 270);
-		g.drawLine(10, 18, 12, 22);
-		g.drawLine(10, 24, 12, 22);
+		g.drawString(" Rotate", 8, 17);
 	}
 
 }

@@ -26,10 +26,10 @@ public class SpinnerGizmoPainter implements IGizmoPainter {
 		if (spinner.getAngle() != 0)
 			path.transform(AffineTransform.getRotateInstance(spinner.getAngle(), x + 1, y + 1));
 
-		g.setColor(Color.ORANGE);
+		g.setColor(Color.pink);
 		g.fill(path);
 
-		g.setColor(Color.ORANGE.darker());
+		g.setColor(Color.pink.darker());
 		g.draw(path);
 	}
 

@@ -12,10 +12,10 @@ public class SquareBumperPainter implements IGizmoPainter {
 	public void paint(Graphics2D g, IGizmo gizmo) {
 		Rectangle2D.Double rect = new Rectangle2D.Double(gizmo.getX(), gizmo.getY(), gizmo.getWidth(), gizmo.getHeight());
 
-		g.setColor(Color.RED);
+		g.setColor(Color.lightGray);
 		g.fill(rect);
 
-		g.setColor(Color.RED.darker());
+		g.setColor(Color.lightGray.darker());
 		g.draw(rect);
 	}
 }

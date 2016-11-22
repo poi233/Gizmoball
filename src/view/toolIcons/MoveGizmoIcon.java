@@ -29,23 +29,7 @@ public class MoveGizmoIcon implements Icon {
 				RenderingHints.VALUE_ANTIALIAS_ON);
 		g.setColor(Color.black);
 
-		g.drawLine(c.getWidth() / 2, y, c.getWidth() / 2, c.getHeight() - 5);
-		g.drawLine(5, c.getHeight() / 2, c.getWidth() - 5, c.getHeight() / 2);
-		g.drawLine(c.getWidth() / 2 - 2, y + 5, c.getWidth() / 2, y);
-		g.drawLine(c.getWidth() / 2 + 2, y + 5, c.getWidth() / 2, y);
-
-		g.drawLine(c.getWidth() / 2 - 2, c.getHeight() - 10, c.getWidth() / 2,
-				c.getHeight() - 5);
-		g.drawLine(c.getWidth() / 2 + 2, c.getHeight() - 10, c.getWidth() / 2,
-				c.getHeight() - 5);
-
-		g.drawLine(5, c.getHeight() / 2, 10, c.getHeight() / 2 - 2);
-		g.drawLine(5, c.getHeight() / 2, 10, c.getHeight() / 2 + 2);
-
-		g.drawLine(c.getWidth() - 5, c.getHeight() / 2, c.getWidth() - 10,
-				c.getHeight() / 2 - 2);
-		g.drawLine(c.getWidth() - 5, c.getHeight() / 2, c.getWidth() - 10,
-				c.getHeight() / 2 + 2);
+		g.drawString("Move", 16, 17);
 	}
 
 }

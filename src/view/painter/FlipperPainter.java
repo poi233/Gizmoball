@@ -30,10 +30,10 @@ public class FlipperPainter implements IGizmoPainter {
 		if (orientation != 0)
 			path.transform(AffineTransform.getRotateInstance(Math.PI / 2* orientation, x + 1, y + 1));
 
-		g.setColor(Color.ORANGE);
+		g.setColor(Color.pink);
 		g.fill(path);
 
-		g.setColor(Color.ORANGE.darker());
+		g.setColor(Color.pink.darker());
 		g.draw(path);
 	}
 }

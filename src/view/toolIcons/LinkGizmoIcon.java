@@ -32,9 +32,6 @@ public class LinkGizmoIcon implements Icon {
 		((Graphics2D) g).setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
 		g.setColor(color);
-		g.drawOval(5, 5, getIconWidth(), getIconHeight());
-
-		g.drawOval(5, 12, getIconWidth(), getIconHeight());
 
 		g.drawString(" Gizmo", 14, 17);
 

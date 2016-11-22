@@ -13,10 +13,10 @@ public class AbsorberPainter implements IGizmoPainter {
 	public void paint(Graphics2D g, IGizmo gizmo) {
 		Rectangle2D.Double rect = new Rectangle2D.Double(gizmo.getX(), gizmo.getY(), gizmo.getWidth(), gizmo.getHeight());
 
-		g.setColor(Color.MAGENTA);
+		g.setColor(Color.cyan);
 		g.fill(rect);
 
-		g.setColor(Color.MAGENTA.darker());
+		g.setColor(Color.cyan.darker());
 		g.draw(rect);
 		
 		g.drawString("" + ((AbsorberGizmo)gizmo).getCapturedBalls().size(), gizmo.getX(), gizmo.getY() + 1);

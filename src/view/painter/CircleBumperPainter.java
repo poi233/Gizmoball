@@ -17,11 +17,11 @@ public class CircleBumperPainter implements IGizmoPainter {
 
 		switch (gizmo.getType()) {
 		case CircleBumper:
-			colour = Color.GREEN;
+			colour = Color.lightGray;
 			break;
 
 		case AcceleratorGizmo:
-			colour = Color.CYAN;
+			colour = Color.blue;
 			break;
 
 		case PortalGizmo:

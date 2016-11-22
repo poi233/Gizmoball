@@ -36,7 +36,7 @@ public class RightFlipperIcon implements Icon {
 	public void paintIcon(Component c, Graphics g, int x, int y) {
 		((Graphics2D) g).setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
-		g.setColor(Color.orange);
+		g.setColor(Color.pink);
 		int[] xc = { 24, 11, 6, 19 };
 		int[] yc = { 11, 24, 19, 6 };
 

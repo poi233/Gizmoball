@@ -14,10 +14,10 @@ public class BallPainter {
 		Ellipse2D.Double circle = new Ellipse2D.Double(ball.getX() - r,
 				ball.getY() - r, r * 2, r * 2);
 
-		g.setColor(Color.YELLOW);
+		g.setColor(Color.orange);
 		g.fill(circle);
 
-		g.setColor(Color.YELLOW.darker());
+		g.setColor(Color.orange.darker());
 		g.draw(circle);
 	}
 }

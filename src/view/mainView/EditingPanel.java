@@ -86,30 +86,30 @@ public class EditingPanel extends JPanel implements Observer, ActionListener {
 
         designModeGroup = new ButtonGroup();
         designModePanel = new JPanel();
-        designModePanel.setPreferredSize(new Dimension(100, 430));
+        designModePanel.setPreferredSize(new Dimension(100, 460));
         super.add(designModePanel);
 
-        makeToolbarButton(new CircleBumperIcon(Color.green), 30, 30, "Circle bumper", DesignCommand.AddCircleBumper);
-        makeToolbarButton(new SquareBumperIcon(Color.red), 30, 30, "Square bumper", DesignCommand.AddSquareBumper);
-        makeToolbarButton(new TriangleBumperIcon(Color.blue), 30, 30, "Triangle bumper", DesignCommand.AddTriangleBumper);
-        makeToolbarButton(new CircleBumperIcon(Color.cyan), 30, 30, "Accelerator gizmo", DesignCommand.AddAcceleratorGizmo);
-        makeToolbarButton(new CircleBumperIcon(new Color(139, 0, 244)), 30, 30, "Portal gizmo", DesignCommand.AddPortalGizmo);
-        makeToolbarButton(new CircleBumperIcon(Color.white), 30, 30, "Multiball gizmo", DesignCommand.AddMultiballGizmo);
-        makeToolbarButton(new CircleBumperIcon(Color.gray), 30, 30, "Gate gizmo", DesignCommand.AddGateGizmo);
-        makeToolbarButton(new SpinnerIcon(Color.gray), 30, 30, "Spinner gizmo", DesignCommand.AddSpinnerGizmo);
+        makeToolbarButton(new CircleBumperIcon(Color.lightGray), 30, 30, "圆形", DesignCommand.AddCircleBumper);
+        makeToolbarButton(new SquareBumperIcon(Color.lightGray), 30, 30, "方形", DesignCommand.AddSquareBumper);
+        makeToolbarButton(new TriangleBumperIcon(Color.lightGray), 30, 30, "三角形", DesignCommand.AddTriangleBumper);
+        makeToolbarButton(new CircleBumperIcon(Color.blue), 30, 30, "加速器", DesignCommand.AddAcceleratorGizmo);
+        makeToolbarButton(new CircleBumperIcon(new Color(139, 0, 244)), 30, 30, "传送门", DesignCommand.AddPortalGizmo);
+        makeToolbarButton(new CircleBumperIcon(Color.white), 30, 30, "发射器", DesignCommand.AddMultiballGizmo);
+        makeToolbarButton(new CircleBumperIcon(Color.gray), 30, 30, "可变门", DesignCommand.AddGateGizmo);
+        makeToolbarButton(new SpinnerIcon(Color.pink), 30, 30, "旋转板", DesignCommand.AddSpinnerGizmo);
 
-        makeToolbarButton(new LeftFlipperIcon(Color.gray), 30, 30, "Left flipper", DesignCommand.AddLeftFlipper);
-        makeToolbarButton(new RightFlipperIcon(Color.gray), 30, 30, "Right flipper", DesignCommand.AddRightFlipper);
-        makeToolbarButton(new BallIcon(Color.yellow), 30, 30, "Ball", DesignCommand.AddBall);
+        makeToolbarButton(new LeftFlipperIcon(Color.pink), 30, 30, "左挡板", DesignCommand.AddLeftFlipper);
+        makeToolbarButton(new RightFlipperIcon(Color.pink), 30, 30, "右挡板", DesignCommand.AddRightFlipper);
+        makeToolbarButton(new BallIcon(Color.orange), 30, 30, "小球", DesignCommand.AddBall);
 
-        makeToolbarButton(new AbsorberIcon(Color.magenta), 66, 30, "Absorber", DesignCommand.AddAbsorber);
+        makeToolbarButton(new AbsorberIcon(Color.cyan), 66, 30, "吸收器", DesignCommand.AddAbsorber);
 
-        makeToolbarButton(new LinkKeyDownIcon(Color.gray), 68, 30, "Allows you to link a gizmo to a key down event.", DesignCommand.ConnectKeyDown);
-        makeToolbarButton(new LinkKeyUpIcon(Color.gray), 68, 30, "Allows you to link a gizmo to a key up event.", DesignCommand.ConnectKeyUp);
-        makeToolbarButton(new LinkGizmoIcon(Color.gray), 68, 30, "Allows you to link two gizmos together.", DesignCommand.ConnectGizmo);
-        makeToolbarButton(new DeleteIcon(Color.gray), 30, 30, "Delete gizmo/ball", DesignCommand.DeleteGizmo);
-        makeToolbarButton(new RotateGizmoIcon(Color.gray), 30, 30, "Rotate gizmo", DesignCommand.RotateGizmo);
-        makeToolbarButton(new MoveGizmoIcon(Color.gray), 30, 30, "Move gizmo", DesignCommand.MoveGizmo);
+        makeToolbarButton(new LinkKeyDownIcon(Color.black), 68, 30, "为组件添加按下按键事件", DesignCommand.ConnectKeyDown);
+        makeToolbarButton(new LinkKeyUpIcon(Color.black), 68, 30, "为组件添加释放按键事件", DesignCommand.ConnectKeyUp);
+        makeToolbarButton(new LinkGizmoIcon(Color.black), 68, 30, "为高级组件添加事件", DesignCommand.ConnectGizmo);
+        makeToolbarButton(new DeleteIcon(Color.gray), 68, 30, "删除组件或小球", DesignCommand.DeleteGizmo);
+        makeToolbarButton(new RotateGizmoIcon(Color.gray), 68, 30, "旋转组件", DesignCommand.RotateGizmo);
+        makeToolbarButton(new MoveGizmoIcon(Color.gray), 68, 30, "移动组件", DesignCommand.MoveGizmo);
     }
 
 

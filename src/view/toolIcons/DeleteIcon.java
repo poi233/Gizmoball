@@ -35,8 +35,7 @@ public class DeleteIcon implements Icon {
 				RenderingHints.VALUE_ANTIALIAS_ON);
 		int pad = 5;
 		g.setColor(Color.red);
-		g.drawLine(pad, pad, c.getWidth() - pad, c.getHeight() - pad);
-		g.drawLine(c.getWidth() - pad, pad, pad, c.getHeight() - pad);
+		g.drawString(" Delete", 8, 17);
 	}
 
 }

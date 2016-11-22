@@ -23,10 +23,10 @@ public class TriangleBumperPainter implements IGizmoPainter {
 		if (orientation != 0)
 			path.transform(AffineTransform.getRotateInstance(Math.PI / 2* orientation, x + 0.5, y + 0.5));
 
-		g.setColor(Color.BLUE);
+		g.setColor(Color.lightGray);
 		g.fill(path);
 
-		g.setColor(Color.BLUE.darker());
+		g.setColor(Color.lightGray.darker());
 		g.draw(path);
 	}
 }

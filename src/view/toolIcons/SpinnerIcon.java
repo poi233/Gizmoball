@@ -35,7 +35,7 @@ public class SpinnerIcon implements Icon {
 	public void paintIcon(Component c, Graphics g, int x, int y) {
 		((Graphics2D) g).setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
-		g.setColor(Color.orange);
+		g.setColor(Color.pink);
 		int[] xc = { 9, 22, 22, 9, };
 		int[] yc = { 12, 12, 19, 19 };
 		g.fillOval(5, 12, getIconWidth(), getIconHeight());
