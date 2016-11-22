@@ -167,8 +167,7 @@ public class MainWindow extends JFrame implements Observer {
 
 		switch (reason) {
 		case RunStateChanged:
-			toolbar.setRunMode(runMode.getIsRunning());
-
+			toolbar.setRunMode(runMode.getIsRunning(),runMode.getIsPaused());
 			if (runMode.getIsRunning())
 				contentPane.remove(statusBar);
 			else
