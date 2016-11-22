@@ -25,9 +25,6 @@ import controller.RunMode;
 import controller.RunMode.UpdateReason;
 import model.base.BadFileException;
 
-/**
- * Main application mainView.
- */
 @SuppressWarnings("serial")
 public class MainWindow extends JFrame implements Observer {
 	public static final int L = 20;
@@ -41,9 +38,6 @@ public class MainWindow extends JFrame implements Observer {
 	private JPanel contentPane;
 	private JLabel statusBar;
 
-	/**
-	 * Creates a new mainView for gizmoball.
-	 */
 	public MainWindow(RunMode runMode, DesignMode designMode) {
 		super("Gizmoball");
 		super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -58,9 +52,6 @@ public class MainWindow extends JFrame implements Observer {
 		initialiseActionListeners();
 	}
 
-	/**
-	 * Initialise all the mainView components.
-	 */
 	private void initialiseComponents() {
 		toolbar = new EditingPanel(runMode, designMode);
 		boardView = new RunningPanel(runMode, designMode);
@@ -100,9 +91,6 @@ public class MainWindow extends JFrame implements Observer {
 		super.requestFocus();
 	}
 
-	/**
-	 * Sets action listeners. 
-	 */
 	private void initialiseActionListeners() {
 		final JFrame parent = this;
 

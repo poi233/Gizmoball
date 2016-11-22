@@ -17,13 +17,11 @@ public class LinkGizmoIcon implements Icon {
 
 	@Override
 	public int getIconHeight() {
-		// TODO Auto-generated method stub
 		return 13;
 	}
 
 	@Override
 	public int getIconWidth() {
-		// TODO Auto-generated method stub
 		return 7;
 	}
 

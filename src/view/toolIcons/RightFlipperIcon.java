@@ -12,8 +12,6 @@ import javax.swing.Icon;
 public class RightFlipperIcon implements Icon {
 
 	Color color;
-	int[] xc;
-	int[] yc;
 
 	public RightFlipperIcon(Color c) {
 		color = c;
@@ -22,13 +20,11 @@ public class RightFlipperIcon implements Icon {
 
 	@Override
 	public int getIconHeight() {
-		// TODO Auto-generated method stub
 		return 7;
 	}
 
 	@Override
 	public int getIconWidth() {
-		// TODO Auto-generated method stub
 		return 7;
 	}
 

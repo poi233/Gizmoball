@@ -19,13 +19,11 @@ public class RotateGizmoIcon implements Icon {
 
 	@Override
 	public int getIconHeight() {
-		// TODO Auto-generated method stub
 		return 18;
 	}
 
 	@Override
 	public int getIconWidth() {
-		// TODO Auto-generated method stub
 		return 17;
 	}
 

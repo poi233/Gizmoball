@@ -79,10 +79,9 @@ public class RunningPanel extends JPanel implements Observer, KeyListener {
         g2d.transform(AffineTransform.getScaleInstance(getXScale(), getYScale()));
         g2d.setFont(g2d.getFont().deriveFont(AffineTransform.getScaleInstance(2.0 / getXScale(), 2.0 / getYScale())));
 
-        // set the stroke width equivalent to 1 pixel at normal scaling
         g2d.setStroke(new BasicStroke(0.05f));
 
-        // draw the grid if in design mode
+        // 画格子
         if (runMode.getIsRunning() == false && runMode.getIsPaused() == false) {
             g2d.setColor(Color.GRAY);
 
@@ -95,7 +94,7 @@ public class RunningPanel extends JPanel implements Observer, KeyListener {
             }
         }
 
-        // draw all the gizmos
+        // 画组件
         for (IGizmo gizmo : board.getGizmos()) {
             IGizmoPainter painter = painters.get(gizmo.getType());
 
@@ -103,12 +102,12 @@ public class RunningPanel extends JPanel implements Observer, KeyListener {
                 painter.paint(g2d, gizmo);
         }
 
-        // draw all the balls
+        // 画小球
         for (Ball ball : board.getBalls()) {
             ballPainter.paint(g2d, ball);
         }
 
-        // draw the validation rectangle if active
+        // 画高亮方块
         Rectangle validationRectangle = designMode.getPositionBox();
 
         if (mouseContained && validationRectangle != null) {

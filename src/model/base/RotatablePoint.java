@@ -14,12 +14,6 @@ public class RotatablePoint {
 	public double x, y;
 
 	/**
-	 * Default constructor.
-	 */
-	public RotatablePoint() {
-	}
-
-	/**
 	 * Creates a new point with the specified values of x and y.
 	 * 
 	 * @param x
