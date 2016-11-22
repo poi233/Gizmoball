@@ -68,16 +68,19 @@ public class MainWindow extends JFrame implements Observer {
 		JMenuBar menubar = new JMenuBar();
 		super.setJMenuBar(menubar);
 
-		JMenu fileMenu = new JMenu("File");
+		JMenu gameMenu = new JMenu("游戏");
+		menubar.add(gameMenu);
+
+		newMenuItem = new JMenuItem("新游戏");
+		gameMenu.add(newMenuItem);
+
+		JMenu fileMenu = new JMenu("文件");
 		menubar.add(fileMenu);
 
-		newMenuItem = new JMenuItem("New");
-		fileMenu.add(newMenuItem);
-
-		openMenuItem = new JMenuItem("Open");
+		openMenuItem = new JMenuItem("加载");
 		fileMenu.add(openMenuItem);
 
-		saveMenuItem = new JMenuItem("Save");
+		saveMenuItem = new JMenuItem("保存");
 		fileMenu.add(saveMenuItem);
 
 		statusBar = new JLabel();
@@ -167,7 +170,7 @@ public class MainWindow extends JFrame implements Observer {
 
 		switch (reason) {
 		case RunStateChanged:
-			toolbar.setRunMode(runMode.getIsRunning(),runMode.getIsPaused());
+			toolbar.setRunMode(runMode.getIsRunning(), runMode.getIsPaused());
 			if (runMode.getIsRunning())
 				contentPane.remove(statusBar);
 			else
