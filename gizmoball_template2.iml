@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FlipperPrototype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FlipperPrototype2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gizmoball/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GUIDevelopment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoadingFlipper/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoadingPrototype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PhysicsPrototype/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.DesignModeViewModel</OriginalElement>
+  <nodes>
+    <node x="10509.166948646654" y="4819.5">view.window.ToolbarButtonArea</node>
+    <node x="4996.055211107196" y="2421.5">model.physics.RotatingWall</node>
+    <node x="7579.680211107196" y="2443.0">model.gizmos.AcceleratorGizmo</node>
+    <node x="4258.055211107196" y="3093.5">model.physics.PhysicsFlipper</node>
+    <node x="10321.564930555556" y="4395.0">view.window.ToolbarButtonArea.CommandButton</node>
+    <node x="0.0" y="3771.5">controller.MagicKeyListener.KeyTypedLater</node>
+    <node x="8367.396112539456" y="4898.0">controller.GizmoballViewModel.UpdateReason</node>
+    <node x="8797.888544440528" y="2431.5">model.gizmos.MultiballGizmo</node>
+    <node x="9725.680211107196" y="5608.0">Driver</node>
+    <node x="206.0" y="3771.5">controller.MagicKeyListener.KeyPressedLater</node>
+    <node x="8225.25" y="1370.0">model.Ball</node>
+    <node x="6251.555211107196" y="2409.5">model.gizmos.SpinnerGizmo</node>
+    <node x="6851.555211107196" y="2443.5">model.gizmos.RightFlipper</node>
+    <node x="10896.564930555556" y="4361.0">view.icons.LinkGizmoIcon</node>
+    <node x="7144.555211107196" y="2443.5">model.gizmos.LeftFlipper</node>
+    <node x="8909.564930555556" y="4361.0">view.icons.LinkKeyUpIcon</node>
+    <node x="940.5" y="4406.5">view.board.AbsorberPainter</node>
+    <node x="1634.3409069799864" y="4754.0">view.board.AnimationPanel</node>
+    <node x="5716.555211107196" y="3115.5">model.physics.PhysicsGateGizmo</node>
+    <node x="12268.564930555556" y="4361.0">view.icons.BallIcon</node>
+    <node x="7406.1825736466535" y="3551.0">model.Loader</node>
+    <node x="5950.375" y="44.5">model.IBoardItem</node>
+    <node x="9094.146859360939" y="1971.0">model.gizmos.AbsorberGizmo</node>
+    <node x="7.5" y="4295.5">controller.MagicKeyListener</node>
+    <node x="4864.5" y="3115.5">model.physics.PhysicsSpinnerGizmo</node>
+    <node x="5776.395070872791" y="4406.5">view.board.BallPainter</node>
+    <node x="3593.4302111071956" y="3138.5">model.physics.PhysicsCircleBumper</node>
+    <node x="9837.564930555556" y="4361.0">view.icons.SquareBumperIcon</node>
+    <node x="6690.3909069799865" y="1883.0">model.gizmos.Flipper</node>
+    <node x="1727.4302111071956" y="375.0">model.Saver</node>
+    <node x="8493.930211107196" y="3138.5">exceptions.BadFileException</node>
+    <node x="3590.0" y="2038.5">model.physics.IPhysicsObject</node>
+    <node x="10059.564930555556" y="4339.0">view.icons.SpinnerIcon</node>
+    <node x="672.5" y="4406.5">view.board.SpinnerGizmoPainter</node>
+    <node x="6303.555211107196" y="1525.0">model.gizmos.ISpinningGizmo</node>
+    <node x="1262.4302111071956" y="2355.0">controller.TriggerHandler</node>
+    <node x="9.375" y="4908.0">controller.MagicKeyListener.KeyReleasedLater</node>
+    <node x="6893.446051213267" y="562.5">model.gizmos.IGizmo</node>
+    <node x="2541.2877178799345" y="4406.5">view.board.TriangleBumperPainter</node>
+    <node x="3268.4302111071956" y="3138.5">model.physics.PhysicsAbsorberGizmo</node>
+    <node x="10502.189930555556" y="2928.0">controller.DesignModeViewModel</node>
+    <node x="7234.3909069799865" y="2027.0">model.gizmos.CircleBumper</node>
+    <node x="9701.596877773862" y="5219.0">view.window.ApplicationWindow</node>
+    <node x="8429.680211107196" y="2454.5">model.gizmos.SquareBumper</node>
+    <node x="11340.564930555556" y="4361.0">view.icons.DeleteIcon</node>
+    <node x="7324.7659069799865" y="1536.0">model.gizmos.Bumper</node>
+    <node x="1208.5" y="4406.5">view.board.CircleBumperPainter</node>
+    <node x="3890.4302111071956" y="3138.5">model.physics.PhysicsTriangleBumper</node>
+    <node x="1328.0909069799864" y="3794.5">view.board.IGizmoPainter</node>
+    <node x="6616.555211107196" y="2443.0">model.gizmos.GateGizmo</node>
+    <node x="11118.564930555556" y="4361.0">view.icons.LinkKeyDownIcon</node>
+    <node x="6757.719855766719" y="1014.0">model.gizmos.Gizmo</node>
+    <node x="8408.564930555556" y="4240.0">controller.GizmoballViewModel</node>
+    <node x="0.0" y="5704.0">model.physics.PhysicsObjectType</node>
+    <node x="9615.564930555556" y="4361.0">view.icons.CircleBumperIcon</node>
+    <node x="10212.064930555556" y="3530.0">controller.DesignModeViewModel.DesignCommand</node>
+    <node x="1476.5" y="4406.5">view.board.FlipperPainter</node>
+    <node x="3535.803189100053" y="2454.5">model.physics.PhysicsGizmo</node>
+    <node x="2425.4302111071956" y="3027.0">model.physics.PhysicsBall</node>
+    <node x="12046.564930555556" y="4361.0">view.icons.TriangleBumperIcon</node>
+    <node x="8557.013544440528" y="1905.0">model.Board</node>
+    <node x="2771.4302111071956" y="3138.5">model.physics.PhysicsSquareBumper</node>
+    <node x="2273.2877178799345" y="4406.5">view.board.GateGizmoPainter</node>
+    <node x="10673.564930555556" y="4361.0">view.icons.RotateGizmoIcon</node>
+    <node x="11562.564930555556" y="4339.0">view.icons.LeftFlipperIcon</node>
+    <node x="11824.564930555556" y="4361.0">view.icons.AbsorberIcon</node>
+    <node x="4445.055211107196" y="2421.5">model.physics.RotatingCircle</node>
+    <node x="7209.446051213267" y="573.0">model.BoardItemBase</node>
+    <node x="8099.680211107196" y="2421.0">model.gizmos.TriangleBumper</node>
+    <node x="9131.564930555556" y="4339.0">view.icons.RightFlipperIcon</node>
+    <node x="8575.273263888888" y="0.0">java.util.Observable</node>
+    <node x="5435.395070872791" y="4296.5">model.GizmoType</node>
+    <node x="5939.555211107196" y="3083.0">model.IPhysicsEngine</node>
+    <node x="3080.4302111071956" y="3138.5">model.physics.OuterWalls</node>
+    <node x="4091.0552111071956" y="2355.0">model.RotatablePoint</node>
+    <node x="3489.22424031332" y="3540.0">model.physics.MitPhysicsEngineWrapper</node>
+    <node x="5589.055211107196" y="1524.5">model.gizmos.OuterWallsGizmo</node>
+    <node x="404.5" y="4406.5">view.board.SquareBumperPainter</node>
+    <node x="7856.680211107196" y="2443.0">model.gizmos.PortalGizmo</node>
+    <node x="9393.564930555556" y="4361.0">view.icons.MoveGizmoIcon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Loader" target="model.gizmos.GateGizmo">
+      <point x="-193.21875" y="-269.0" />
+      <point x="7556.4638236466535" y="3480.0" />
+      <point x="6723.555211107196" y="3480.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="model.gizmos.CircleBumper" target="model.gizmos.Bumper">
+      <point x="52.25" y="-37.0" />
+      <point x="7391.1409069799865" y="1843.0" />
+      <point x="7358.59924031332" y="1843.0" />
+      <point x="-67.66666666666697" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="controller.GizmoballViewModel">
+      <point x="-228.55555555555657" y="-137.0" />
+      <point x="10522.611393091098" y="4724.0" />
+      <point x="8841.464930555554" y="4724.0" />
+      <point x="192.39999999999964" y="192.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="model.Loader">
+      <point x="53.44444444444525" y="-192.0" />
+      <point x="8702.509375000001" y="4130.0" />
+      <point x="7749.6825736466535" y="4130.0" />
+      <point x="0.0" y="269.0" />
+    </edge>
+    <edge source="model.gizmos.OuterWallsGizmo" target="model.gizmos.Gizmo">
+      <point x="0.0" y="-37.0" />
+      <point x="5706.055211107196" y="1340.0" />
+      <point x="6796.019855766719" y="1340.0" />
+      <point x="-153.19999999999982" y="148.0" />
+    </edge>
+    <edge source="controller.MagicKeyListener" target="controller.MagicKeyListener.KeyReleasedLater">
+      <point x="-47.125" y="136.5" />
+      <point x="46.5" y="-48.5" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="java.util.Observable">
+      <point x="213.77777777777737" y="-192.0" />
+      <point x="8862.842708333334" y="4220.0" />
+      <point x="9399.932573646654" y="4220.0" />
+      <point x="9399.932573646654" y="355.0" />
+      <point x="8812.148263888888" y="355.0" />
+      <point x="47.375" y="147.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.TriangleBumper">
+      <point x="15.84375" y="-236.0" />
+      <point x="10771.533680555556" y="2718.0" />
+      <point x="8331.430211107196" y="2718.0" />
+      <point x="77.25" y="70.5" />
+    </edge>
+    <edge source="controller.MagicKeyListener" target="controller.MagicKeyListener.KeyTypedLater">
+      <point x="-141.375" y="-136.5" />
+      <point x="54.625" y="4220.0" />
+      <point x="46.5" y="4220.0" />
+      <point x="-46.5" y="48.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.TriangleBumperIcon">
+      <point x="201.66666666666606" y="-137.0" />
+      <point x="10952.83361531332" y="4724.0" />
+      <point x="12147.564930555556" y="4724.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="controller.DesignModeViewModel.DesignCommand">
+      <point x="-42.25" y="236.0" />
+      <point x="10713.439930555556" y="3510.0" />
+      <point x="10625.314930555556" y="3510.0" />
+      <point x="137.75" y="-290.0" />
+    </edge>
+    <edge source="view.window.ApplicationWindow" target="view.window.ToolbarButtonArea">
+      <point x="28.33333333333394" y="-169.5" />
+      <point x="9899.930211107196" y="5179.0" />
+      <point x="10630.166948646654" y="5179.0" />
+      <point x="-121.0" y="137.0" />
+    </edge>
+    <edge source="model.physics.PhysicsBall" target="model.Ball">
+      <point x="-81.5" y="-137.0" />
+      <point x="2506.9302111071956" y="2908.0" />
+      <point x="2403.9302111071956" y="2908.0" />
+      <point x="2403.9302111071956" y="1853.0" />
+      <point x="8274.107142857143" y="1853.0" />
+      <point x="-293.1428571428569" y="191.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.Board">
+      <point x="110.90625" y="-236.0" />
+      <point x="10866.596180555556" y="2688.0" />
+      <point x="10115.56389166275" y="2688.0" />
+      <point x="10115.56389166275" y="2315.0" />
+      <point x="8924.596877773864" y="2315.0" />
+      <point x="167.08333333333394" y="159.0" />
+    </edge>
+    <edge source="Driver" target="controller.GizmoballViewModel">
+      <point x="-55.66666666666606" y="-25.5" />
+      <point x="9753.513544440528" y="5588.0" />
+      <point x="8649.064930555556" y="5588.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+    <edge source="model.gizmos.Flipper" target="model.gizmos.Gizmo">
+      <point x="131.0" y="-181.0" />
+      <point x="7083.3909069799865" y="1350.0" />
+      <point x="6949.219855766719" y="1350.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.BallIcon">
+      <point x="228.55555555555475" y="-137.0" />
+      <point x="10979.722504202207" y="4734.0" />
+      <point x="12369.564930555556" y="4734.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.GateGizmoPainter">
+      <point x="0.0" y="-202.5" />
+      <point x="1920.8409069799864" y="4664.0" />
+      <point x="2397.2877178799345" y="4664.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.Ball">
+      <point x="174.28125" y="-236.0" />
+      <point x="10929.971180555556" y="2668.0" />
+      <point x="10137.56389166275" y="2668.0" />
+      <point x="10137.56389166275" y="1773.0" />
+      <point x="8860.392857142857" y="1773.0" />
+      <point x="293.1428571428569" y="191.5" />
+    </edge>
+    <edge source="model.gizmos.AbsorberGizmo" target="model.gizmos.Gizmo">
+      <point x="90.0" y="-93.0" />
+      <point x="9319.146859360939" y="1783.0" />
+      <point x="8919.75" y="1783.0" />
+      <point x="8919.75" y="1330.0" />
+      <point x="7102.419855766719" y="1330.0" />
+      <point x="153.19999999999982" y="148.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.TriangleBumperPainter">
+      <point x="38.200000000000045" y="-202.5" />
+      <point x="1959.0409069799862" y="4674.0" />
+      <point x="2665.2877178799345" y="4674.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.gizmos.LeftFlipper" target="model.gizmos.Flipper">
+      <point x="0.0" y="-48.0" />
+      <point x="7276.555211107196" y="2295.0" />
+      <point x="7127.0575736466535" y="2295.0" />
+      <point x="174.66666666666697" y="181.0" />
+    </edge>
+    <edge source="model.physics.PhysicsSpinnerGizmo" target="model.physics.PhysicsGizmo">
+      <point x="-92.0" y="-48.5" />
+      <point x="4887.5" y="2838.0" />
+      <point x="3678.303189100053" y="2838.0" />
+      <point x="57.0" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.IBoardItem">
+      <point x="-304.57894736842127" y="-280.0" />
+      <point x="3506.1452929448988" y="3510.0" />
+      <point x="2392.9302111071956" y="3510.0" />
+      <point x="2392.9302111071956" y="355.0" />
+      <point x="6046.3125" y="355.0" />
+      <point x="-57.5625" y="103.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.TriangleBumper">
+      <point x="107.34375" y="-269.0" />
+      <point x="7857.0263236466535" y="3430.0" />
+      <point x="8176.930211107196" y="3430.0" />
+      <point x="-77.25" y="70.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.PortalGizmo">
+      <point x="-47.53125" y="-236.0" />
+      <point x="10708.158680555556" y="2738.0" />
+      <point x="8023.180211107196" y="2738.0" />
+      <point x="55.5" y="48.5" />
+    </edge>
+    <edge source="model.gizmos.IGizmo" target="model.IBoardItem">
+      <point x="0.0" y="-92.0" />
+      <point x="7041.446051213267" y="335.0" />
+      <point x="6161.4375" y="335.0" />
+      <point x="57.5625" y="103.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsGateGizmo">
+      <point x="203.0526315789475" y="-280.0" />
+      <point x="4013.7768718922675" y="3480.0" />
+      <point x="5812.055211107196" y="3480.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="model.Board" target="model.Ball">
+      <point x="133.66666666666606" y="-159.0" />
+      <point x="8891.180211107196" y="1823.0" />
+      <point x="8469.535714285714" y="1823.0" />
+      <point x="-97.71428571428623" y="191.5" />
+    </edge>
+    <edge source="model.physics.PhysicsSpinnerGizmo" target="model.gizmos.SpinnerGizmo">
+      <point x="92.0" y="-48.5" />
+      <point x="5071.5" y="2888.0" />
+      <point x="6308.888544440529" y="2888.0" />
+      <point x="-114.66666666666697" y="82.0" />
+    </edge>
+    <edge source="model.physics.PhysicsSpinnerGizmo" target="model.RotatablePoint">
+      <point x="-46.0" y="-48.5" />
+      <point x="4933.5" y="2828.0" />
+      <point x="4368.555211107196" y="2828.0" />
+      <point x="111.0" y="136.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.IPhysicsEngine">
+      <point x="304.5789473684208" y="-280.0" />
+      <point x="4115.30318768174" y="3510.0" />
+      <point x="6009.555211107196" y="3510.0" />
+      <point x="-70.0" y="81.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsCircleBumper">
+      <point x="0.0" y="-280.0" />
+      <point x="3810.72424031332" y="3420.0" />
+      <point x="3731.9302111071956" y="3420.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea.CommandButton" target="controller.DesignModeViewModel.DesignCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="290.0" />
+    </edge>
+    <edge source="model.physics.PhysicsTriangleBumper" target="model.physics.PhysicsGizmo">
+      <point x="-76.75" y="-25.5" />
+      <point x="3967.1802111071956" y="2898.0" />
+      <point x="3640.303189100053" y="2898.0" />
+      <point x="19.0" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.gizmos.IGizmo">
+      <point x="135.36842105263167" y="-280.0" />
+      <point x="3946.0926613659517" y="3460.0" />
+      <point x="5578.555211107196" y="3460.0" />
+      <point x="5578.555211107196" y="984.0" />
+      <point x="6923.046051213268" y="984.0" />
+      <point x="-118.39999999999964" y="92.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.LeftFlipper">
+      <point x="-64.40625" y="-269.0" />
+      <point x="7685.2763236466535" y="3450.0" />
+      <point x="7210.555211107196" y="3450.0" />
+      <point x="-66.0" y="48.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.CircleBumperPainter">
+      <point x="-76.40000000000009" y="-202.5" />
+      <point x="1844.4409069799867" y="4684.0" />
+      <point x="1332.5" y="4684.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.AcceleratorGizmo">
+      <point x="-79.21875" y="-236.0" />
+      <point x="10676.471180555556" y="2748.0" />
+      <point x="7772.430211107196" y="2748.0" />
+      <point x="64.25" y="48.5" />
+    </edge>
+    <edge source="model.Loader" target="model.IBoardItem">
+      <point x="-279.09375" y="-269.0" />
+      <point x="7470.5888236466535" y="3500.0" />
+      <point x="6241.055211107196" y="3500.0" />
+      <point x="6241.055211107196" y="345.0" />
+      <point x="6123.0625" y="345.0" />
+      <point x="19.1875" y="103.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="controller.MagicKeyListener">
+      <point x="-229.20000000000005" y="-202.5" />
+      <point x="1691.6409069799865" y="4724.0" />
+      <point x="337.375" y="4724.0" />
+      <point x="141.375" y="136.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.IPhysicsObject">
+      <point x="-270.73684210526335" y="-280.0" />
+      <point x="3539.9873982080567" y="3500.0" />
+      <point x="2414.9302111071956" y="3500.0" />
+      <point x="2414.9302111071956" y="2315.0" />
+      <point x="3610.1" y="2315.0" />
+      <point x="-80.40000000000009" y="25.5" />
+    </edge>
+    <edge source="model.physics.PhysicsSpinnerGizmo" target="model.physics.RotatingCircle">
+      <point x="0.0" y="-48.5" />
+      <point x="4979.5" y="2818.0" />
+      <point x="4843.305211107196" y="2818.0" />
+      <point x="132.75" y="70.0" />
+    </edge>
+    <edge source="controller.TriggerHandler" target="model.IBoardItem">
+      <point x="0.0" y="-136.5" />
+      <point x="1653.4302111071956" y="335.0" />
+      <point x="5969.5625" y="335.0" />
+      <point x="-134.3125" y="103.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsBall">
+      <point x="-203.0526315789475" y="-280.0" />
+      <point x="3607.6716087343725" y="3480.0" />
+      <point x="2588.4302111071956" y="3480.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.SpinnerGizmo">
+      <point x="-236.15625" y="-269.0" />
+      <point x="7513.5263236466535" y="3490.0" />
+      <point x="6403.544029206124" y="3490.0" />
+      <point x="6403.544029206124" y="2888.0" />
+      <point x="6423.555211107196" y="2888.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="controller.TriggerHandler">
+      <point x="-237.65625" y="-236.0" />
+      <point x="10518.033680555556" y="2798.0" />
+      <point x="1914.0968777738626" y="2798.0" />
+      <point x="260.66666666666674" y="136.5" />
+    </edge>
+    <edge source="model.physics.PhysicsTriangleBumper" target="model.RotatablePoint">
+      <point x="76.75" y="-25.5" />
+      <point x="4120.680211107196" y="2908.0" />
+      <point x="4146.555211107196" y="2908.0" />
+      <point x="-111.0" y="136.5" />
+    </edge>
+    <edge source="model.physics.PhysicsFlipper" target="model.physics.RotatingWall">
+      <point x="88.0" y="-70.5" />
+      <point x="4456.055211107196" y="2868.0" />
+      <point x="5139.055211107196" y="2868.0" />
+      <point x="-143.0" y="70.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel.UpdateReason" target="controller.GizmoballViewModel">
+      <point x="0.0" y="-58.5" />
+      <point x="8471.396112539456" y="4734.0" />
+      <point x="8552.864930555555" y="4734.0" />
+      <point x="-96.20000000000073" y="192.0" />
+    </edge>
+    <edge source="model.physics.PhysicsSpinnerGizmo" target="model.physics.RotatingWall">
+      <point x="46.0" y="-48.5" />
+      <point x="5025.5" y="2878.0" />
+      <point x="5425.055211107196" y="2878.0" />
+      <point x="143.0" y="70.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="model.IPhysicsEngine">
+      <point x="0.0" y="-192.0" />
+      <point x="8649.064930555556" y="4140.0" />
+      <point x="6149.555211107196" y="4140.0" />
+      <point x="70.0" y="81.0" />
+    </edge>
+    <edge source="Driver" target="view.window.ApplicationWindow">
+      <point x="0.0" y="-25.5" />
+      <point x="9809.180211107196" y="5578.0" />
+      <point x="9871.596877773862" y="5578.0" />
+      <point x="0.0" y="169.5" />
+    </edge>
+    <edge source="model.physics.PhysicsSquareBumper" target="model.physics.PhysicsGizmo">
+      <point x="0.0" y="-25.5" />
+      <point x="2915.9302111071956" y="2878.0" />
+      <point x="3545.303189100053" y="2878.0" />
+      <point x="-76.0" y="37.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.BallPainter">
+      <point x="191.0" y="-202.5" />
+      <point x="2111.8409069799864" y="4714.0" />
+      <point x="5945.895070872791" y="4714.0" />
+      <point x="56.5" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.LinkKeyDownIcon">
+      <point x="94.11111111111131" y="-137.0" />
+      <point x="10845.278059757766" y="4684.0" />
+      <point x="11219.564930555556" y="4684.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="controller.MagicKeyListener.KeyPressedLater" target="controller.MagicKeyListener">
+      <point x="46.5" y="48.5" />
+      <point x="345.5" y="4220.0" />
+      <point x="337.375" y="4220.0" />
+      <point x="141.375" y="-136.5" />
+    </edge>
+    <edge source="view.board.CircleBumperPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="1332.5" y="4220.0" />
+      <point x="1436.5909069799864" y="4220.0" />
+      <point x="-15.5" y="25.5" />
+    </edge>
+    <edge source="controller.MagicKeyListener.KeyReleasedLater" target="controller.MagicKeyListener">
+      <point x="-46.5" y="-48.5" />
+      <point x="55.875" y="4734.0" />
+      <point x="54.625" y="4734.0" />
+      <point x="-141.375" y="136.5" />
+    </edge>
+    <edge source="model.physics.PhysicsFlipper" target="model.physics.PhysicsGizmo">
+      <point x="-88.0" y="-70.5" />
+      <point x="4280.055211107196" y="2888.0" />
+      <point x="3659.303189100053" y="2888.0" />
+      <point x="38.0" y="37.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel.DesignCommand" target="controller.DesignModeViewModel">
+      <point x="-137.75" y="-290.0" />
+      <point x="10349.814930555556" y="3500.0" />
+      <point x="10628.939930555556" y="3500.0" />
+      <point x="-126.75" y="236.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="model.GizmoType">
+      <point x="114.59999999999991" y="-202.5" />
+      <point x="2035.4409069799867" y="4694.0" />
+      <point x="5595.895070872791" y="4694.0" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.SquareBumperPainter">
+      <point x="-191.0" y="-202.5" />
+      <point x="1729.8409069799864" y="4714.0" />
+      <point x="528.5" y="4714.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.BoardItemBase" target="model.IBoardItem">
+      <point x="0.0" y="-81.5" />
+      <point x="7336.946051213267" y="315.0" />
+      <point x="6238.1875" y="315.0" />
+      <point x="134.3125" y="103.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="controller.TriggerHandler">
+      <point x="-160.33333333333394" y="-192.0" />
+      <point x="8488.73159722222" y="4170.0" />
+      <point x="1597.5909069799864" y="4170.0" />
+      <point x="1597.5909069799864" y="2908.0" />
+      <point x="1653.4302111071956" y="2908.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="model.physics.PhysicsFlipper" target="model.physics.RotatingCircle">
+      <point x="44.0" y="-70.5" />
+      <point x="4412.055211107196" y="2858.0" />
+      <point x="4577.805211107196" y="2858.0" />
+      <point x="-132.75" y="70.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.IGizmoPainter">
+      <point x="76.39999999999964" y="-202.5" />
+      <point x="1997.240906979986" y="4684.0" />
+      <point x="2799.787717879934" y="4684.0" />
+      <point x="2799.787717879934" y="4190.0" />
+      <point x="1560.5909069799864" y="4190.0" />
+      <point x="108.5" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.LinkGizmoIcon">
+      <point x="67.22222222222263" y="-137.0" />
+      <point x="10818.389170868877" y="4674.0" />
+      <point x="10997.564930555556" y="4674.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.SquareBumper">
+      <point x="47.53125" y="-236.0" />
+      <point x="10803.221180555556" y="2708.0" />
+      <point x="8590.930211107196" y="2708.0" />
+      <point x="53.75" y="37.0" />
+    </edge>
+    <edge source="model.gizmos.MultiballGizmo" target="model.Board">
+      <point x="0.0" y="-60.0" />
+      <point x="8891.388544440528" y="2325.0" />
+      <point x="8857.763544440528" y="2325.0" />
+      <point x="100.25" y="159.0" />
+    </edge>
+    <edge source="model.physics.PhysicsCircleBumper" target="model.physics.PhysicsGizmo">
+      <point x="0.0" y="-25.5" />
+      <point x="3731.9302111071956" y="2908.0" />
+      <point x="3621.303189100053" y="2908.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.MultiballGizmo">
+      <point x="322.03125" y="-269.0" />
+      <point x="8071.7138236466535" y="3480.0" />
+      <point x="8722.430211107196" y="3480.0" />
+      <point x="8722.430211107196" y="2908.0" />
+      <point x="8844.638544440528" y="2908.0" />
+      <point x="-46.75" y="60.0" />
+    </edge>
+    <edge source="model.gizmos.Bumper" target="model.gizmos.Gizmo">
+      <point x="0.0" y="-25.5" />
+      <point x="7426.2659069799865" y="1340.0" />
+      <point x="7025.819855766719" y="1340.0" />
+      <point x="76.60000000000036" y="148.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.RightFlipper">
+      <point x="-107.34375" y="-269.0" />
+      <point x="7642.3388236466535" y="3460.0" />
+      <point x="6919.805211107196" y="3460.0" />
+      <point x="-68.25" y="48.0" />
+    </edge>
+    <edge source="view.window.ApplicationWindow" target="controller.GizmoballViewModel">
+      <point x="-28.33333333333394" y="-169.5" />
+      <point x="9843.263544440528" y="5179.0" />
+      <point x="8924.169099996085" y="5179.0" />
+      <point x="8924.169099996085" y="4734.0" />
+      <point x="8745.264930555557" y="4734.0" />
+      <point x="96.20000000000073" y="192.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="model.Saver">
+      <point x="-106.88888888888869" y="-192.0" />
+      <point x="8542.176041666666" y="4160.0" />
+      <point x="2054.9302111071956" y="4160.0" />
+      <point x="0.0" y="279.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsSquareBumper">
+      <point x="-135.36842105263167" y="-280.0" />
+      <point x="3675.3558192606883" y="3460.0" />
+      <point x="2915.9302111071956" y="3460.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.MoveGizmoIcon">
+      <point x="-147.8888888888887" y="-137.0" />
+      <point x="10603.278059757766" y="4694.0" />
+      <point x="9494.564930555556" y="4694.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="view.board.SpinnerGizmoPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="796.5" y="4200.0" />
+      <point x="1374.5909069799864" y="4200.0" />
+      <point x="-77.5" y="25.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsGizmo">
+      <point x="-67.68421052631584" y="-280.0" />
+      <point x="3743.040029787004" y="3440.0" />
+      <point x="3257.9302111071956" y="3440.0" />
+      <point x="3257.9302111071956" y="2898.0" />
+      <point x="3583.303189100053" y="2898.0" />
+      <point x="-38.0" y="37.0" />
+    </edge>
+    <edge source="model.gizmos.Gizmo" target="model.gizmos.IGizmo">
+      <point x="-95.75" y="-148.0" />
+      <point x="6853.469855766719" y="994.0" />
+      <point x="6982.2460512132675" y="994.0" />
+      <point x="-59.19999999999982" y="92.0" />
+    </edge>
+    <edge source="model.physics.PhysicsFlipper" target="model.RotatablePoint">
+      <point x="-44.0" y="-70.5" />
+      <point x="4324.055211107196" y="2878.0" />
+      <point x="4257.555211107196" y="2878.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="model.physics.RotatingCircle" target="model.physics.IPhysicsObject">
+      <point x="0.0" y="-70.0" />
+      <point x="4710.555211107196" y="2285.0" />
+      <point x="3730.7" y="2285.0" />
+      <point x="40.19999999999982" y="25.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.RightFlipper">
+      <point x="-142.59375" y="-236.0" />
+      <point x="10613.096180555556" y="2768.0" />
+      <point x="7056.305211107196" y="2768.0" />
+      <point x="68.25" y="48.0" />
+    </edge>
+    <edge source="model.physics.PhysicsGateGizmo" target="model.physics.PhysicsGizmo">
+      <point x="-47.75" y="-48.5" />
+      <point x="5764.305211107196" y="2808.0" />
+      <point x="3697.303189100053" y="2808.0" />
+      <point x="76.0" y="37.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.AbsorberGizmo">
+      <point x="142.59375" y="-236.0" />
+      <point x="10898.283680555556" y="2678.0" />
+      <point x="10126.56389166275" y="2678.0" />
+      <point x="10126.56389166275" y="2305.0" />
+      <point x="9296.646859360939" y="2305.0" />
+      <point x="67.5" y="93.0" />
+    </edge>
+    <edge source="model.gizmos.CircleBumper" target="model.gizmos.IGizmo">
+      <point x="-52.25" y="-37.0" />
+      <point x="7286.6409069799865" y="984.0" />
+      <point x="7041.446051213267" y="984.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="controller.MagicKeyListener" target="controller.MagicKeyListener.KeyPressedLater">
+      <point x="47.125" y="-136.5" />
+      <point x="243.125" y="4220.0" />
+      <point x="252.5" y="4220.0" />
+      <point x="-46.5" y="48.5" />
+    </edge>
+    <edge source="model.gizmos.AbsorberGizmo" target="model.Ball">
+      <point x="0.0" y="-93.0" />
+      <point x="9229.146859360939" y="1793.0" />
+      <point x="8762.67857142857" y="1793.0" />
+      <point x="195.42857142857065" y="191.5" />
+    </edge>
+    <edge source="view.board.SquareBumperPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="528.5" y="4190.0" />
+      <point x="1343.5909069799864" y="4190.0" />
+      <point x="-108.5" y="25.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsTriangleBumper">
+      <point x="33.84210526315792" y="-280.0" />
+      <point x="3844.566345576478" y="3430.0" />
+      <point x="4043.9302111071956" y="3430.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.CircleBumper">
+      <point x="-150.28125" y="-269.0" />
+      <point x="7599.4013236466535" y="3470.0" />
+      <point x="6841.055211107196" y="3470.0" />
+      <point x="6841.055211107196" y="2315.0" />
+      <point x="7286.6409069799865" y="2315.0" />
+      <point x="-52.25" y="37.0" />
+    </edge>
+    <edge source="model.BoardItemBase" target="java.util.Observable">
+      <point x="85.0" y="-81.5" />
+      <point x="7421.946051213267" y="345.0" />
+      <point x="8622.648263888888" y="345.0" />
+      <point x="-142.125" y="147.5" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="controller.GizmoballViewModel">
+      <point x="267.4000000000001" y="-202.5" />
+      <point x="2188.240906979986" y="4734.0" />
+      <point x="8456.664930555555" y="4734.0" />
+      <point x="-192.39999999999964" y="192.0" />
+    </edge>
+    <edge source="model.Saver" target="model.IBoardItem">
+      <point x="0.0" y="-279.5" />
+      <point x="2054.9302111071956" y="345.0" />
+      <point x="6007.9375" y="345.0" />
+      <point x="-95.9375" y="103.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.AbsorberIcon">
+      <point x="174.77777777777737" y="-137.0" />
+      <point x="10925.94472642443" y="4714.0" />
+      <point x="11925.564930555556" y="4714.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="model.physics.OuterWalls" target="model.physics.PhysicsGizmo">
+      <point x="0.0" y="-25.5" />
+      <point x="3163.9302111071956" y="2888.0" />
+      <point x="3564.303189100053" y="2888.0" />
+      <point x="-57.0" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsAbsorberGizmo">
+      <point x="-33.84210526315792" y="-280.0" />
+      <point x="3776.882135050162" y="3430.0" />
+      <point x="3420.9302111071956" y="3430.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.CircleBumper">
+      <point x="-15.84375" y="-236.0" />
+      <point x="10739.846180555556" y="2728.0" />
+      <point x="8089.180211107196" y="2728.0" />
+      <point x="8089.180211107196" y="2295.0" />
+      <point x="7391.1409069799865" y="2295.0" />
+      <point x="52.25" y="37.0" />
+    </edge>
+    <edge source="model.gizmos.GateGizmo" target="model.gizmos.CircleBumper">
+      <point x="0.0" y="-48.5" />
+      <point x="6723.555211107196" y="2305.0" />
+      <point x="7251.8075736466535" y="2305.0" />
+      <point x="-87.08333333333303" y="37.0" />
+    </edge>
+    <edge source="model.Loader" target="model.Board">
+      <point x="150.28125" y="-269.0" />
+      <point x="7899.9638236466535" y="3440.0" />
+      <point x="8419.180211107196" y="3440.0" />
+      <point x="8419.180211107196" y="2335.0" />
+      <point x="8657.263544440528" y="2335.0" />
+      <point x="-100.25" y="159.0" />
+    </edge>
+    <edge source="model.gizmos.TriangleBumper" target="model.gizmos.Bumper">
+      <point x="0.0" y="-70.5" />
+      <point x="8254.180211107196" y="2285.0" />
+      <point x="7454.5992403133205" y="2285.0" />
+      <point x="7454.5992403133205" y="1843.0" />
+      <point x="7426.2659069799865" y="1843.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Driver" target="controller.DesignModeViewModel">
+      <point x="55.66666666666606" y="-25.5" />
+      <point x="9864.84687777386" y="5588.0" />
+      <point x="12505.981597222222" y="5588.0" />
+      <point x="12505.981597222222" y="3490.0" />
+      <point x="10966.939930555556" y="3490.0" />
+      <point x="211.25" y="236.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.PortalGizmo">
+      <point x="64.40625" y="-269.0" />
+      <point x="7814.0888236466535" y="3420.0" />
+      <point x="7912.180211107196" y="3420.0" />
+      <point x="-55.5" y="48.5" />
+    </edge>
+    <edge source="model.Board" target="model.gizmos.IGizmo">
+      <point x="-133.66666666666606" y="-159.0" />
+      <point x="8623.846877773864" y="1843.0" />
+      <point x="8036.653189100052" y="1843.0" />
+      <point x="8036.653189100052" y="974.0" />
+      <point x="7100.646051213267" y="974.0" />
+      <point x="59.19999999999982" y="92.0" />
+    </edge>
+    <edge source="model.gizmos.SpinnerGizmo" target="model.gizmos.Gizmo">
+      <point x="86.0" y="-82.0" />
+      <point x="6509.555211107196" y="2285.0" />
+      <point x="6467.055211107196" y="2285.0" />
+      <point x="6467.055211107196" y="1350.0" />
+      <point x="6872.6198557667185" y="1350.0" />
+      <point x="-76.60000000000036" y="148.0" />
+    </edge>
+    <edge source="model.physics.PhysicsGizmo" target="model.physics.IPhysicsObject">
+      <point x="0.0" y="-37.0" />
+      <point x="3621.303189100053" y="2335.0" />
+      <point x="3690.5" y="2335.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.SpinnerGizmoPainter">
+      <point x="-152.79999999999995" y="-202.5" />
+      <point x="1768.0409069799862" y="4704.0" />
+      <point x="796.5" y="4704.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.Board">
+      <point x="270.73684210526335" y="-280.0" />
+      <point x="4081.4610824185834" y="3500.0" />
+      <point x="5929.055211107196" y="3500.0" />
+      <point x="5929.055211107196" y="2898.0" />
+      <point x="6606.055211107196" y="2898.0" />
+      <point x="6606.055211107196" y="2325.0" />
+      <point x="8590.430211107196" y="2325.0" />
+      <point x="-167.08333333333394" y="159.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.SpinnerIcon">
+      <point x="-67.22222222222263" y="-137.0" />
+      <point x="10683.944726424432" y="4664.0" />
+      <point x="10180.564930555556" y="4664.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="model.physics.MitPhysicsEngineWrapper">
+      <point x="-53.44444444444525" y="-192.0" />
+      <point x="8595.620486111111" y="4150.0" />
+      <point x="3810.72424031332" y="4150.0" />
+      <point x="0.0" y="280.0" />
+    </edge>
+    <edge source="model.physics.PhysicsAbsorberGizmo" target="model.physics.PhysicsGizmo">
+      <point x="0.0" y="-25.5" />
+      <point x="3420.9302111071956" y="2908.0" />
+      <point x="3602.303189100053" y="2908.0" />
+      <point x="-19.0" y="37.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.LeftFlipper">
+      <point x="-110.90625" y="-236.0" />
+      <point x="10644.783680555556" y="2758.0" />
+      <point x="7342.555211107196" y="2758.0" />
+      <point x="66.0" y="48.0" />
+    </edge>
+    <edge source="view.board.TriangleBumperPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="2665.2877178799345" y="4200.0" />
+      <point x="1529.5909069799864" y="4200.0" />
+      <point x="77.5" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea.CommandButton" target="view.window.ToolbarButtonArea">
+      <point x="83.0" y="37.0" />
+      <point x="10570.564930555556" y="4644.0" />
+      <point x="10737.72250420221" y="4644.0" />
+      <point x="-13.444444444445253" y="-137.0" />
+    </edge>
+    <edge source="view.board.FlipperPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="1600.5" y="4220.0" />
+      <point x="1467.5909069799864" y="4220.0" />
+      <point x="15.5" y="25.5" />
+    </edge>
+    <edge source="model.Loader" target="exceptions.BadFileException">
+      <point x="236.15625" y="-269.0" />
+      <point x="7985.8388236466535" y="3460.0" />
+      <point x="8597.430211107196" y="3460.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.gizmos.PortalGizmo" target="model.gizmos.CircleBumper">
+      <point x="0.0" y="-48.5" />
+      <point x="7967.680211107196" y="2305.0" />
+      <point x="7356.3075736466535" y="2305.0" />
+      <point x="17.41666666666697" y="37.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="controller.DesignModeViewModel">
+      <point x="40.33333333333394" y="-137.0" />
+      <point x="10791.500281979988" y="4664.0" />
+      <point x="10886.064930555556" y="4664.0" />
+      <point x="10886.064930555556" y="3510.0" />
+      <point x="10797.939930555556" y="3510.0" />
+      <point x="42.25" y="236.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.window.ToolbarButtonArea.CommandButton">
+      <point x="-40.33333333333394" y="-137.0" />
+      <point x="10710.83361531332" y="4654.0" />
+      <point x="10404.564930555556" y="4654.0" />
+      <point x="-83.0" y="37.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.FlipperPainter">
+      <point x="-38.200000000000045" y="-202.5" />
+      <point x="1882.6409069799865" y="4674.0" />
+      <point x="1600.5" y="4674.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="model.gizmos.AcceleratorGizmo" target="model.gizmos.CircleBumper">
+      <point x="0.0" y="-48.5" />
+      <point x="7708.180211107196" y="2315.0" />
+      <point x="7321.47424031332" y="2315.0" />
+      <point x="-17.41666666666697" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.gizmos.OuterWallsGizmo">
+      <point x="169.2105263157896" y="-280.0" />
+      <point x="3979.9347666291096" y="3470.0" />
+      <point x="5706.055211107196" y="3470.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.gizmos.ISpinningGizmo">
+      <point x="236.89473684210543" y="-280.0" />
+      <point x="4047.6189771554255" y="3490.0" />
+      <point x="5918.055211107196" y="3490.0" />
+      <point x="5918.055211107196" y="1843.0" />
+      <point x="6329.055211107196" y="1843.0" />
+      <point x="-51.0" y="36.5" />
+    </edge>
+    <edge source="model.physics.PhysicsBall" target="model.physics.IPhysicsObject">
+      <point x="81.5" y="-137.0" />
+      <point x="2669.9302111071956" y="2325.0" />
+      <point x="3650.3" y="2325.0" />
+      <point x="-40.19999999999982" y="25.5" />
+    </edge>
+    <edge source="model.gizmos.SpinnerGizmo" target="model.gizmos.ISpinningGizmo">
+      <point x="-86.0" y="-82.0" />
+      <point x="6337.555211107196" y="2285.0" />
+      <point x="6380.055211107196" y="2285.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.RightFlipperIcon">
+      <point x="-174.77777777777737" y="-137.0" />
+      <point x="10576.389170868877" y="4704.0" />
+      <point x="9252.564930555556" y="4704.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="model.gizmos.MultiballGizmo" target="model.Ball">
+      <point x="62.33333333333394" y="-60.0" />
+      <point x="8953.721877773864" y="2325.0" />
+      <point x="9044.1293845466" y="2325.0" />
+      <point x="9044.1293845466" y="1813.0" />
+      <point x="8567.25" y="1813.0" />
+      <point x="0.0" y="191.5" />
+    </edge>
+    <edge source="model.gizmos.SquareBumper" target="model.gizmos.Bumper">
+      <point x="0.0" y="-37.0" />
+      <point x="8537.180211107196" y="2275.0" />
+      <point x="7465.5992403133205" y="2275.0" />
+      <point x="7465.5992403133205" y="1843.0" />
+      <point x="7493.9325736466535" y="1843.0" />
+      <point x="67.66666666666697" y="25.5" />
+    </edge>
+    <edge source="view.board.AbsorberPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="1064.5" y="4210.0" />
+      <point x="1405.5909069799864" y="4210.0" />
+      <point x="-46.5" y="25.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.DeleteIcon">
+      <point x="121.0" y="-137.0" />
+      <point x="10872.166948646653" y="4694.0" />
+      <point x="11441.564930555556" y="4694.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="model.physics.PhysicsFlipper" target="model.gizmos.Flipper">
+      <point x="0.0" y="-70.5" />
+      <point x="4368.055211107196" y="2848.0" />
+      <point x="4434.555211107196" y="2848.0" />
+      <point x="4434.555211107196" y="2295.0" />
+      <point x="6777.72424031332" y="2295.0" />
+      <point x="-174.66666666666697" y="181.0" />
+    </edge>
+    <edge source="model.physics.PhysicsGateGizmo" target="model.gizmos.GateGizmo">
+      <point x="47.75" y="-48.5" />
+      <point x="5859.805211107196" y="2908.0" />
+      <point x="6652.221877773863" y="2908.0" />
+      <point x="-71.33333333333303" y="48.5" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.LeftFlipperIcon">
+      <point x="147.8888888888887" y="-137.0" />
+      <point x="10899.055837535543" y="4704.0" />
+      <point x="11683.564930555556" y="4704.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="model.gizmos.RightFlipper" target="model.gizmos.Flipper">
+      <point x="0.0" y="-48.0" />
+      <point x="6988.055211107196" y="2295.0" />
+      <point x="6952.3909069799865" y="2295.0" />
+      <point x="0.0" y="181.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.CircleBumperIcon">
+      <point x="-121.0" y="-137.0" />
+      <point x="10630.166948646654" y="4684.0" />
+      <point x="9716.564930555556" y="4684.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsFlipper">
+      <point x="67.68421052631584" y="-280.0" />
+      <point x="3878.408450839636" y="3440.0" />
+      <point x="4368.055211107196" y="3440.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="model.physics.RotatingWall" target="model.physics.IPhysicsObject">
+      <point x="0.0" y="-70.0" />
+      <point x="5282.055211107196" y="2275.0" />
+      <point x="3770.9" y="2275.0" />
+      <point x="80.40000000000009" y="25.5" />
+    </edge>
+    <edge source="model.Ball" target="model.BoardItemBase">
+      <point x="0.0" y="-191.5" />
+      <point x="8567.25" y="964.0" />
+      <point x="7400.696051213267" y="964.0" />
+      <point x="63.75" y="81.5" />
+    </edge>
+    <edge source="view.window.ApplicationWindow" target="controller.DesignModeViewModel">
+      <point x="141.66666666666606" y="-169.5" />
+      <point x="10013.263544440528" y="5199.0" />
+      <point x="12481.064930555556" y="5199.0" />
+      <point x="12481.064930555556" y="3500.0" />
+      <point x="10882.439930555556" y="3500.0" />
+      <point x="126.75" y="236.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.RotateGizmoIcon">
+      <point x="13.444444444445253" y="-137.0" />
+      <point x="10764.6113930911" y="4734.0" />
+      <point x="10774.564930555556" y="4734.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="model.gizmos.Gizmo" target="model.BoardItemBase">
+      <point x="95.75" y="-148.0" />
+      <point x="7044.969855766719" y="994.0" />
+      <point x="7273.196051213267" y="994.0" />
+      <point x="-63.75" y="81.5" />
+    </edge>
+    <edge source="model.gizmos.Flipper" target="model.gizmos.ISpinningGizmo">
+      <point x="-131.0" y="-181.0" />
+      <point x="6821.3909069799865" y="1843.0" />
+      <point x="6431.055211107196" y="1843.0" />
+      <point x="51.0" y="36.5" />
+    </edge>
+    <edge source="model.gizmos.MultiballGizmo" target="model.gizmos.CircleBumper">
+      <point x="-62.33333333333394" y="-60.0" />
+      <point x="8829.055211107196" y="2265.0" />
+      <point x="7425.97424031332" y="2265.0" />
+      <point x="87.08333333333303" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.PhysicsSpinnerGizmo">
+      <point x="101.52631578947376" y="-280.0" />
+      <point x="3912.250556102794" y="3450.0" />
+      <point x="4979.5" y="3450.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.AbsorberGizmo">
+      <point x="279.09375" y="-269.0" />
+      <point x="8028.7763236466535" y="3470.0" />
+      <point x="8711.430211107196" y="3470.0" />
+      <point x="8711.430211107196" y="2335.0" />
+      <point x="9161.646859360939" y="2335.0" />
+      <point x="-67.5" y="93.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="controller.DesignModeViewModel">
+      <point x="229.19999999999982" y="-202.5" />
+      <point x="2150.040906979986" y="4724.0" />
+      <point x="8303.346112539457" y="4724.0" />
+      <point x="8303.346112539457" y="3490.0" />
+      <point x="10544.439930555556" y="3490.0" />
+      <point x="-211.25" y="236.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.SpinnerGizmo">
+      <point x="-205.96875" y="-236.0" />
+      <point x="10549.721180555556" y="2788.0" />
+      <point x="6538.221877773863" y="2788.0" />
+      <point x="114.66666666666697" y="82.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.LinkKeyUpIcon">
+      <point x="-201.66666666666606" y="-137.0" />
+      <point x="10549.500281979988" y="4714.0" />
+      <point x="9010.564930555556" y="4714.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="view.window.ToolbarButtonArea" target="view.icons.SquareBumperIcon">
+      <point x="-94.11111111111131" y="-137.0" />
+      <point x="10657.055837535543" y="4674.0" />
+      <point x="9938.564930555556" y="4674.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="model.Loader" target="model.Ball">
+      <point x="-21.46875" y="-269.0" />
+      <point x="7728.2138236466535" y="3440.0" />
+      <point x="7569.180211107196" y="3440.0" />
+      <point x="7569.180211107196" y="1863.0" />
+      <point x="8371.82142857143" y="1863.0" />
+      <point x="-195.42857142857065" y="191.5" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.SquareBumper">
+      <point x="193.21875" y="-269.0" />
+      <point x="7942.9013236466535" y="3450.0" />
+      <point x="8483.430211107196" y="3450.0" />
+      <point x="-53.75" y="37.0" />
+    </edge>
+    <edge source="model.physics.MitPhysicsEngineWrapper" target="model.physics.OuterWalls">
+      <point x="-101.52631578947376" y="-280.0" />
+      <point x="3709.1979245238463" y="3450.0" />
+      <point x="3163.9302111071956" y="3450.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="view.window.ApplicationWindow" target="view.board.AnimationPanel">
+      <point x="-85.0" y="-169.5" />
+      <point x="9786.596877773862" y="5189.0" />
+      <point x="2064.0909069799864" y="5189.0" />
+      <point x="143.25" y="202.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.MultiballGizmo">
+      <point x="79.21875" y="-236.0" />
+      <point x="10834.908680555556" y="2698.0" />
+      <point x="8938.138544440528" y="2698.0" />
+      <point x="46.75" y="60.0" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.GateGizmo">
+      <point x="-174.28125" y="-236.0" />
+      <point x="10581.408680555556" y="2778.0" />
+      <point x="6794.888544440529" y="2778.0" />
+      <point x="71.33333333333303" y="48.5" />
+    </edge>
+    <edge source="view.board.GateGizmoPainter" target="view.board.IGizmoPainter">
+      <point x="0.0" y="-25.5" />
+      <point x="2397.2877178799345" y="4210.0" />
+      <point x="1498.5909069799864" y="4210.0" />
+      <point x="46.5" y="25.5" />
+    </edge>
+    <edge source="controller.GizmoballViewModel" target="model.Board">
+      <point x="106.88888888888869" y="-192.0" />
+      <point x="8755.953819444443" y="4220.0" />
+      <point x="8733.430211107196" y="4220.0" />
+      <point x="8733.430211107196" y="2325.0" />
+      <point x="8724.096877773864" y="2325.0" />
+      <point x="-33.41666666666606" y="159.0" />
+    </edge>
+    <edge source="model.Loader" target="model.gizmos.AcceleratorGizmo">
+      <point x="21.46875" y="-269.0" />
+      <point x="7771.1513236466535" y="3430.0" />
+      <point x="7643.930211107196" y="3430.0" />
+      <point x="-64.25" y="48.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="model.gizmos.IGizmo">
+      <point x="205.96875" y="-236.0" />
+      <point x="10961.658680555556" y="2658.0" />
+      <point x="10148.56389166275" y="2658.0" />
+      <point x="10148.56389166275" y="954.0" />
+      <point x="7159.846051213267" y="954.0" />
+      <point x="118.39999999999964" y="92.0" />
+    </edge>
+    <edge source="view.board.AnimationPanel" target="view.board.AbsorberPainter">
+      <point x="-114.59999999999991" y="-202.5" />
+      <point x="1806.240906979986" y="4694.0" />
+      <point x="1064.5" y="4694.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="controller.DesignModeViewModel" target="java.util.Observable">
+      <point x="237.65625" y="-236.0" />
+      <point x="10993.346180555556" y="2648.0" />
+      <point x="10159.56389166275" y="2648.0" />
+      <point x="10159.56389166275" y="345.0" />
+      <point x="8906.898263888888" y="345.0" />
+      <point x="142.125" y="147.5" />
+    </edge>
+    <edge source="controller.MagicKeyListener.KeyTypedLater" target="controller.MagicKeyListener">
+      <point x="46.5" y="48.5" />
+      <point x="139.5" y="4220.0" />
+      <point x="148.875" y="4220.0" />
+      <point x="-47.125" y="-136.5" />
+    </edge>
+    <edge source="model.Board" target="java.util.Observable">
+      <point x="0.0" y="-159.0" />
+      <point x="8757.513544440528" y="1833.0" />
+      <point x="8214.75" y="1833.0" />
+      <point x="8214.75" y="355.0" />
+      <point x="8717.398263888888" y="355.0" />
+      <point x="-47.375" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.08981318856777902" x="6253.0" y="2921.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
