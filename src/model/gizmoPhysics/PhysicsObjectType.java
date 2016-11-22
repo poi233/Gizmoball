@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 /**
  * The enum that represents a basePhysics object type.

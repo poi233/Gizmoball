@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 import model.gizmos.AbsorberGizmo;
 import model.basePhysics.Circle;

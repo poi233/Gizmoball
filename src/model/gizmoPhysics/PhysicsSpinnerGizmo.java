@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 import java.util.Observable;
 import java.util.Observer;

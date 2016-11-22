@@ -11,7 +11,7 @@ import java.util.Map;
 import model.base.Ball;
 import model.base.Board;
 import model.base.IBoardItem;
-import model.giamoPhysics.IPhysicsEngine;
+import model.gizmoPhysics.IPhysicsEngine;
 import model.gizmos.IGizmo;
 import model.gizmos.LeftFlipper;
 import model.gizmos.RightFlipper;

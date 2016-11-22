@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 import java.util.ArrayList;
 import java.util.HashMap;

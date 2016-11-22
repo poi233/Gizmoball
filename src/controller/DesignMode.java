@@ -37,10 +37,10 @@ public class DesignMode extends Observable {
     //显示当前需要执行的操作
     public enum DesignCommand {
         None,
-        AddCircleBumper("点击添加圆球.", true),
+        AddCircleBumper("点击添加圆.", true),
         AddSquareBumper("点击添加方块.", true),
         AddTriangleBumper("点击添加三角.", true),
-        AddLeftFlipper("点击放置做挡板.", 2, 2),
+        AddLeftFlipper("点击放置左挡板.", 2, 2),
         AddRightFlipper("点击添加右挡板.", 2, 2),
         AddAbsorber("点击添加吸收器", true),
         AddBall("点击添加小球", true),
@@ -49,7 +49,7 @@ public class DesignMode extends Observable {
         MoveGizmo("移动", false),
         ConnectKeyUp("点击添加放开按键事件", false),
         ConnectKeyDown("点击添加按下按键事件", false),
-        ConnectGizmo("点击添加事件", false),
+        ConnectGizmo("点击添加组件事件", false),
         AddAcceleratorGizmo("点击添加加速器", true),
         AddPortalGizmo("点击添加传送门", true),
         AddMultiballGizmo("点击添加小球发射器", true),

@@ -24,7 +24,7 @@ import model.gizmos.RightFlipper;
 import model.gizmos.SpinnerGizmo;
 import model.gizmos.SquareBumper;
 import model.gizmos.TriangleBumper;
-import model.giamoPhysics.IPhysicsEngine;
+import model.gizmoPhysics.IPhysicsEngine;
 
 /* SAVE FILE GRAMMAR
 

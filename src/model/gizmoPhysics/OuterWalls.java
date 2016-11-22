@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 import model.base.Board;
 import model.basePhysics.LineSegment;

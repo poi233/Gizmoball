@@ -1,4 +1,4 @@
-package model.giamoPhysics;
+package model.gizmoPhysics;
 
 import model.basePhysics.Circle;
 import model.basePhysics.Vect;

@@ -9,10 +9,10 @@ import java.util.Observable;
 import javax.swing.Timer;
 
 import model.base.Board;
-import model.giamoPhysics.IPhysicsEngine;
+import model.gizmoPhysics.IPhysicsEngine;
 import model.fileSystem.Loader;
 import model.fileSystem.Saver;
-import model.giamoPhysics.PhysicsEngine;
+import model.gizmoPhysics.PhysicsEngine;
 import model.base.BadFileException;
 
 public class RunMode extends Observable implements ActionListener {
